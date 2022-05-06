@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Кабельный калькулятор</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Расчет веса кабеля</h1>
+<form>
+	<tr><td class="key" align="right">
+	<label for="K2ExtraField_438">Вес кабеля км/кг:</label></td>
+	<td><input type="number" value="" id="cableWeight" class="inp">
+	</td></tr>
+
+	<tr><td class="key" align="right">
+	<label>Длина кабеля(м):</label></td><td>
+	<input type="number" value="" class="inp">
+	</td></tr>
+
+	<tr><td class="key" align="right"><label>Расчетный вес:</label></td>
+	<td><input type="text" value="" class="inp">
+         </td></tr>
+    </form>
+</br>
+</br> 
+    <form>
+      <label>Выберете марку:</label>
+      <input type="text" id="cableMark" size="30" onkeyup="showResult(this.value)" autocomplete="off"/>
+      <ul id="livesearch" class="hide"></ul>
+    </form>
+   
+    <script src="search.js"></script>
+  </body>
+</html>

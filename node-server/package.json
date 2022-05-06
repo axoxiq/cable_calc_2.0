@@ -1,0 +1,19 @@
+{
+  "name": "serverquery",
+  "version": "1.0.0",
+  "description": "livesearch",
+  "main": "livesearch.js",
+  "proxy": "http://localhost:3002",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
